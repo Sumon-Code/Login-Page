@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Advance Login</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.sec1{
+	display: flex;
+	float: left;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+    width: 60%;
+    height: 100vh;
+}
+.sec1 img{
+	width: 100%;
+	height: 100vh;
+}
+.section1{
+	display: flex;
+	float: right;
+	width: 40%;
+	height: 100vh;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-image: linear-gradient(to bottom left,#ff0157,#990099,#00cccc);
+	color: black;
+}
+.section1 .div1{
+	border: 1px solid white;
+	width: 55%;
+	height: 60%;
+	border-radius: 5px;
+	background-color: white;
+}
+form{
+	align-content: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+.user,.mail,.pass{
+	width: 70%;
+	border: none;
+	height: 15px;
+	padding: 15px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-top: 20px;
+	background-color: transparent;
+	border-bottom: 1px solid grey;
+	color: black;
+}
+.button{
+	margin-top: 35px;
+	width: 80%;
+	height: 35px;
+    color: white;
+    background-image: linear-gradient(to left,#ff0157,#990099,#00cccc);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+}
+h2{
+	margin-top: 25px;
+}
+.menu{
+	position: relative;
+	align-content: center;
+	margin-top: 30px;
+	text-align: center;
+	justify-content: center;
+}
+.menu ul li{
+	float: left;
+	justify-content: center;
+	text-align: center;
+	padding: 4px;
+	padding-left: 55px;
+	font-size: 26px;
+	list-style: none;
+}	
+.menu ul li .fac{
+	text-align: center;
+	padding:8px;
+	width: 20px;
+	height: 20px;
+	border: 2px solid white;
+	border-radius: 50%;
+    background-color: #3b5998;
+    color: white;
+    cursor: pointer;
+}
+.menu ul li .twi{
+	text-align: center;
+	padding:8px;
+	width: 20px;
+	height: 20px;
+	border: 2px solid white;
+	border-radius: 50%;
+    background-color: #1ab2ff;
+    color: white;
+    cursor: pointer;
+}
+.menu ul li .ins{
+	text-align: center;
+	padding:8px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	width: 23px;
+	height: 23px;
+	border: 2px solid white;
+	border-radius: 50%;
+    background-image: linear-gradient(to bottom left,#ff0157,#990099,#00cccc);
+    color: white;
+    cursor: pointer;
+}
+</style>
+<body>
+<section class="sec1">
+	<img src="https://img.freepik.com/free-photo/portrait-young-pretty-woman-sitting-table-black-shirt-working-laptop-co-working-office-wearing-glasses-smiling-happy-positive-drinking-coffee-paper-cup_285396-81.jpg?size=626&ext=jpg&ga=GA1.2.1495777033.1603756800.jpg">
+</section>	
+<section class="section1">
+	<div class="div1">
+		<h2>Login</h2>
+		<form>
+			<input type="text" placeholder="Username" class="user"><br>
+			<input type="email" placeholder="Email" class="mail"><br>
+			<input type="password" placeholder="Password" class="pass"><br>
+			<input type="submit" value="Login" class="button"><br>
+		</form>
+        <div class="menu">
+        	<ul>
+        		<li><a href="https://www.facebook.com/"><i class="fa fa-facebook fac" aria-hidden="true"></i></a></li>
+        		<li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter twi" aria-hidden="true"></i></a></li>
+        		<li><a href="https://www.instagram.com/"><i class="fa fa-instagram ins" aria-hidden="true"></i></a></li>
+        	</ul>
+        </div>
+	</div>
+</section>
+</body>
+</html>
